@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #18221a;
+    color: #fff;
+}
+
+#btnBuscar{
+    background-color: greenyellow;
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+}
+
+#div-erro{
+    display: none;
+    background-color: red;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+}
+
+#div-dados{
+    background-color: darkslategrey;
+    border: 2px #fff solid;
+}
+
+th{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: slategray;
+    min-width: 300px;
+}
