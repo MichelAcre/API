@@ -12,21 +12,44 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Pizzaria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pizzaria - Bootstrap</title>
   </head>
   <body>
-    <div id="Inicio" class="bgfundo"></div>
-    <header>
-      <div class="container site-header-main">
-        <nav id="site-navigation" class="main-navigation">
-          <img src="img/smz pizzas.png" alt="" id="rah" height="58px" />
-          <ul id="menu-principal">
-            <li><a href="#Inicio">Pizzaria</a></li>
-            <li><a href="#Cardapio">Cardápio</a></li>
-            <li><a href="#Delivery">Localização</a></li>
-            <li><a href="#Contato">Contato</a></li>
+    <nav id="Inicio" class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0) 100%);">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/smz pizzas.png" alt="Logo" id="rah" height="58px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Inicio">Pizzaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Cardapio">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Delivery">Localização</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contato">Contato</a>
+            </li>
           </ul>
-        </nav>
+        </div>
+      </div>
+    </nav>
         <div class="sec-menu">
           <a
             href="https://wa.me/551499999999?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!"
