@@ -144,7 +144,7 @@ header {
 
 #TextoBoasVindas {
   max-width: 600px;
-  color: #fff;
+  color: #000;
 
   & p {
     margin: 0;
